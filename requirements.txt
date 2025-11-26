@@ -1,0 +1,24 @@
+# Core
+numpy<1.27
+opencv-python==4.9.0.80
+ultralytics==8.3.168
+
+# Audio
+sounddevice==0.4.7
+soundfile==0.13.1
+webrtcvad==2.0.10
+soxr==0.5.0.post1
+
+# Speech
+faster-whisper==1.1.1
+openai==1.51.0
+
+# Web
+Flask==3.0.3
+
+# Camera (Raspberry Pi)
+picamera2==0.3.26
+
+# Motors (choose one; install both is fine)
+adafruit-circuitpython-pca9685==3.4.11
+lgpio==0.2.2.0
