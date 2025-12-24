@@ -46,3 +46,9 @@ python blind_guide_bot.py
 - **Planner robust**: ignores malformed `MOVE(fwd, turn)` and keeps you safe.
 - **Modular backends**: quickly switch motors/cameras via environment variables.
 - **Safer defaults**: robot stops if no motion command in 8s.
+
+
+## Local Experience-Based Planner (No Cloud)
+- Set `BEACON_PLANNER=learned` to enable the on-device learning planner.
+- The robot keeps a small experience map in `experience_map.json` and will increasingly avoid places where it repeatedly sees/encounters hazards.
+- Add named destinations (waypoints) in `waypoints.json` and say: `take me to kitchen`.
